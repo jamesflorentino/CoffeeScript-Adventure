@@ -28,10 +28,10 @@ window.finish  = (interval)  -> clearInterval interval
 @finish  = (interval)  -> clearInterval interval
 # Since the scope for `this` in a coffeescript file will reference
 # to the wrapped function's context. (function(){ ... }).call(this)
-# unless, of course, the compiler has the --bare option in it.
+# unless, of course, the command line option has the --bare in it.
 
 
-# 3. Creating Arrays with multiple objects minus the brackets
+# 3. Creating Arrays with multiple objects.
 # ------------------------------------------------------------
 # A. Compressed
 platoons = [
