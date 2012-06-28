@@ -2,7 +2,7 @@
 # ------------------------------------------------------------
 # I discovered that you can bind events in the collection
 # extension with the `change:attribute` event name which makes
-# things easier to debug
+# it easier to detect if a model has changed properties.
 
 class User extends Backbone.Model
   defaults:
