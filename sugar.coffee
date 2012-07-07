@@ -33,12 +33,19 @@ window.finish  = (interval)  -> clearInterval interval
 
 # 3. Creating Arrays with multiple objects.
 # ------------------------------------------------------------
-# A. Compressed
+# A.1 Compressed (Curly Braces)
 platoons = [
   {id:0, name: 'Alpha'}
   {id:1, name: 'Bravo'}
   {id:2, name: 'Charlie'}
 ]
+# A.2 Compressed (Parenthesis)
+platoons = [
+  (id:0, name: 'Alpha')
+  (id:1, name: 'Bravo')
+  (id:2, name: 'Charlie')
+]
+
 # B. Compact
 platoons = [
   id: 0, name: 'Alpha'
